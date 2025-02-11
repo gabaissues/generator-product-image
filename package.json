@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/node": "^22.13.1",
+    "canvas": "^3.1.0",
+    "node-cups": "^1.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
