@@ -1,7 +1,7 @@
 
 # Gerador de Imagens e Impressão 🎨🖨️
 
-Este projeto é um gerador de imagens que combina texto, informações e imagens em um layout e, em seguida, envia a imagem gerada para impressão em uma impressora específica.
+Este projeto é um gerador de imagens que combina texto, informações e imagens em um layout e, em seguida, envia a imagem gerada para impressão em uma impressora específica feito especialmente como uma ideia para maycrene cosmeticos.
 
 ## Funcionalidade 🚀
 
@@ -30,7 +30,7 @@ O código é dividido em uma classe `Generator` que é responsável por:
    Execute o seguinte comando para instalar as dependências necessárias:
 
    ```bash
-   npm install canvas node-cups fs
+   npm install
    ```
 
 2. **Configuração de Fontes**:
@@ -45,8 +45,7 @@ O código é dividido em uma classe `Generator` que é responsável por:
 
    ```ts
    const ImageGenerator = new Generator(
-     "Buscando por um novo condicionador?
-Teste o MayCrene Shampoo por apenas:",
+     "Buscando por um novo shampoo?\nTeste o MayCrene Shampoo por apenas:",
      20.0,
      ["Informação 1", "Informação 2", "Informações 3", "Testando video"],
      "public/images/image-3.png"
@@ -77,7 +76,3 @@ Teste o MayCrene Shampoo por apenas:"`
 
 - A geração da imagem é realizada com um tamanho de tela de 842x595 pixels (tamanho A4).
 - A impressão é realizada utilizando a impressora configurada no sistema, e o arquivo gerado é salvo no diretório `public/builds/`.
-
-## Licença 📝
-
-Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
